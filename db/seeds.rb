@@ -15,7 +15,7 @@ puts 'Seeding 💪🏿...'
   )
 end
 
-puts 'Seeding 🦸🏿💪🏿...'
+puts 'Seeding 💪🏿...'
 10.times do
   HeroPower.create(
     [{ strength: %w[Strong Weak Average].sample, hero_id: rand(1..10), power_id: rand(1..20) }],
