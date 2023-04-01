@@ -18,6 +18,9 @@ gem "puma", "~> 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+#faker
+gem "faker", "~> 3.1"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -64,4 +67,3 @@ end
 
 gem "active_model_serializers", "~> 0.10.13"
 
-gem "faker", "~> 3.1"
