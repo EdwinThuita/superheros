@@ -1,5 +1,5 @@
 # Description
-- #### live link = [Superheroes](https://s-isn5.onrender.com)
+- #### live link = [Superheroes](https://spheroes.onrender.com)
 
 -This api is designed to manage database of different `superheroes `and their `powers`. 
 - It has three main resources: `Hero`, `Power`, and `HeroPower`.
