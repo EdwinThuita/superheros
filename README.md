@@ -1,30 +1,20 @@
-# Heroes Project
+# Description
+- #### live link = [Superheroes](https://s-isn5.onrender.com)
 
-## Description
-  #### live link = [Superheroes](https://superheroes-trs5.onrender.com)
+-This api is designed to manage database of different `superheroes `and their `powers`. 
+- It has three main resources: `Hero`, `Power`, and `HeroPower`.
+- `Hero `model represents a `superhero `that possess one or more `powers` while power model represents the different types of `powers` that a superhero can have. 
+- The `HeroPower` model acts as a join table between the `hero` and the `power` model, hence allowing for relations between the two.
 
-- The Heroes API is designed to manage a database of different `superheroes` and their respective `powers`. The application has three main resources - `Hero`, `Power`, and `HeroPower`. The `Hero` model represents a `superhero` that possesses one or more `powers`, while the `Power` model represents the different types of `powers` that a `superhero` can have. The `HeroPower` model acts as a join table between the `Hero` and `Power` models, allowing for the association between the two.
-
-- This API will allow users to perform various **CRUD** operations such as **adding** new `heroes` and `powers`, **updating** and **deleting** existing `heroes` and `powers`, and **retrieving** information on specific `heroes` and `powers`. **_Users_** can also associate specific `powers` with a `hero` by creating a new `HeroPower` entry. However, this API is not intended to handle any advanced features such as user authentication or authorization, which may be required for a full-fledged superhero management platform.
-
-# Technologies used
-
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite3-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-
-![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![json](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
-
-![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+-The API allows users to perform **CRUD** operations such as **adding** new `heroes` and `powers`, updating and **deleting** existing heroes and powers. Users can also associate specific powers with a hero by creating a new HeroPower entry.
 
 # Get-started
-1. A)First **fork** this repository to your github account.
+1. First **fork** this repository to your github account.
 
-     [Click-Here-To-Fork](https://github.com/ShuaibShaban/superheros/fork)
-
+     [Click-Here-To-Fork](https://github.com/EdwinThuita/codechallenge/fork)
 2. **Git clone** to your local machine
    ```bash
-       git clone https://github.com/{your-username}/superheros.git
+       git clone https://github.com/{your-username}/codechallenge.git
    ```
 3. Run bundle install and bundle update to install necessary dependencies.
    ```sh
@@ -46,6 +36,8 @@
 
 # Tables
 
+# Tables
+
 | Heroes      | powers      | HeroPower         |
 | ----------- | ----------- | ----------------- |
 | id (**pk**) | id (**pk**) | id (**pk**)       |
@@ -55,8 +47,6 @@
 -This diagram shows the relationships between the `Heroes`, `Powers`, and `HeroPowers` tables. The `Heroes` table has a **many-to-many** relationship with the `Powers` table, as each hero can have multiple `powers`, and each `power` can belong to multiple `heroes`. The `HeroPowers` table acts as a bridge table between `Heroes` and `Powers`, allowing for the **many-to-many** relationship between them.
 
 # Routes
-
-- These are HTTP methods used for interacting with a hypothetical API that deals with pizza-related data. Here's a breakdown of each one:
 
 1. **GET /heroes**
   - Returns a list of all `heroes` in **JSON** format with their id, name and superhero name. The format of the **JSON** response is.
@@ -80,7 +70,6 @@
         }
     ]
     ```
-
 2. **GET /heroes/:id**
 
    - This route should return information about a specific `hero`. If the `hero` with the given ID exists, it should return **JSON** data in the following format:
@@ -210,15 +199,12 @@
            }
     ```
 
-
-
-
 # Contributor
 
-- [ ![BuiltBy](https://img.shields.io/badge/Built-By-GE7A10?style=flat-square&logo=BuzzFeed&logoColor=white)](https://github.com/ShuaibShaban)
-  **[ShuaibShaban](https://github.com/ShuaibShaban)**
+**[EdwinThuita](https://github.com/EdwinThuita)**
 
 # License
 
-- **ShuaibShaban** <span>&copy;</span>
-# superheros
+MIT License
+**EdwinThuita**
+
